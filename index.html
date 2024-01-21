@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <title>Sebastian</title>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Sebastian</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home" onclick="select()">Home</a></li>
+                    <li><a href="#about" onclick="select()">About</a></li>
+                    <li><a href="#skills" onclick="select()">Skills</a></li>
+                    <li><a href="#curriculum" onclick="select()">Curriculum</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="showOcultElements()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCTION HOME -->
+    <section id="home" class="home">
+        <div class="content-banner">
+            <div class="content-img">
+                <img src="img/hero.png" alt="">
+            </div>
+            <h1>Sebastian Gómez</h1>
+            <div class="networks">
+                <a href="https://github.com/zlcosio21"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sebastian-g%C3%B3mez-75334a1a2/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:sebas60621@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION ABOUT -->
+    <section id="about" class="about">
+        <div class="content-section">
+            <h2>About</h2>
+            <p><span>I'm Sebastian.</span> a dedicated Python enthusiast with a strong passion for
+                harnessing the full power of Django. My education and hands-on experience
+                have fortified my expertise. Currently pursuing Computer and Systems
+                Engineering, I dive deep into technology intricacies, honing my skills.
+                Crafting solutions that maximize Django's capabilities is where I find joy,
+                showcasing my commitment to innovative and robust programming.</p>
+            <div class="row">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal Information</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            21 june 2006
+                        </li>
+                        <li>
+                            <strong>Phone</strong>
+                            +57 320 4481069
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            sebas60621@gmail.com
+                        </li>
+                        <li>
+                            <strong>City</strong>
+                            Barranquilla, Colombia
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="container-interests">
+                        <div class="interest">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Games</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Music</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>Sports</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Books</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-shuttle-space"></i>
+                            <span>Astronomy</span>
+                        </div>
+                        <div class="interest">
+                            <i class="fa-solid fa-lock"></i>
+                            <span>Cibersecurity</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECTION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="row">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Programming Languages and tools</h3>
+                    <div class="skill skill-icon">
+                        <i class="devicon-python-plain"></i>
+                        <i class="devicon-django-plain"></i>
+                        <i class="devicon-html5-plain"></i>
+                        <i class="devicon-css3-plain"></i>
+                        <i class="devicon-heroku-plain"></i>
+                        <i class="devicon-git-plain"></i>
+                        <i class="devicon-bash-plain"></i>
+                        <i class="devicon-mysql-plain"></i>
+                    </div>
+
+                    <h4>Languages</h4>
+                    <div class="skill">
+                        <span>Spanish, English</span>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Adaptability</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Problem Solving</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Learning Ability</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Effective Communication</span>
+                        <div class="bar-skill">
+                            <div class="progress">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="content-seccion">
+            <h2>Curriculum</h2>
+            <div class="row">
+                <div class="col left">
+                    <h3>education</h3>
+                    <div class="item lef">
+                        <h4>Faculty of Engineering</h4>
+                        <span class="house">Corporación Universitaria Latinoamericana</span>
+                        <span class="date">2023 - Present</span>
+                        <p class="carrer carrer-p-left">Computer Systems Engineering</p>
+                        <div class="conectorl">
+                            <div class="circlel"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col right">
+                    <h3>Experience</h3>
+
+                    <div class="item rig">
+                        <h4>Django Developer</h4>
+                        <span class="house">Moral Games
+                            <a class="links" href="https://github.com/zlcosio21/MoralGamesWeb">
+                                <i class="devicon-github-plain"></i>
+                            </a>
+                        </span>
+                        <span class="date">Aug 2023 - Present</span>
+                        <p>
+                            I developed <a class="links" href="https://moral-games-69e7492c306c.herokuapp.com/">
+                                Moral Games Web</a>, a video game store, using the robust Django framework.
+                            This project was a deep dive into creating a complete platform, from conceptualization
+                            to implementation.
+                        </p>
+                        <div id="contentComplete1" class="display-none">
+                            <p>
+                                The platform includes key features such as user authentication, purchase history,
+                                shopping cart, simulated payment gateway, and more. I implemented the site
+                                architecture with Django to allow users to register and access exclusive features.
+                                I used a database to store critical information, such as user data and product
+                                details. I deployed the application on Heroku, overcoming specific challenges.
+                                I designed and developed key features, contributed to the frontend development
+                                with HTML, CSS, and JavaScript, implemented tests to ensure functionality and
+                                security, and included a contact section. I provided detailed documentation and
+                                prioritized security in authentication and sensitive data handling. I faced challenges
+                                during development, demonstrating learning and adaptation skills.
+                            </p>
+                        </div>
+
+                        <span class="see-more" onclick="contentComplete(1)">See more</span>
+
+                        <div class="conectorr">
+                            <div class="circler"></div>
+                        </div>
+                    </div>
+
+                    <div class="item rig">
+                        <h4>Django Developer</h4>
+                        <span class="house">Trivia Quest
+                            <a class="links" href="https://github.com/zlcosio21/TriviaQuest">
+                                <i class="devicon-github-plain"></i>
+                            </a>
+                        </span>
+                        <span class="date">Dec 2023 - Present</span>
+                        <p>
+                            In my role as a developer at <a class="links"
+                                href="https://trivia-quest-5d4ec157c798.herokuapp.com/">
+                                Trivia Quest </a>, I have ledthe exciting creation and deployment of a unique project
+                            that merges intellectual challenges with captivating options.
+                        </p>
+
+                        <div id="contentComplete2" class="display-none">
+                            <p>
+                                My key responsibilities included developing a unique experience through the
+                                implementation of intriguing questions using technologies such as Django, JavaScript,
+                                HTML, CSS, and PostgreSQL for the database. Additionally, I successfully deployed the
+                                project on Heroku, ensuring its global accessibility. I worked on the efficient
+                                configuration of the database to store and retrieve essential data. Join us at Trivia
+                                Quest, where each question is an opportunity to elevate your wit as we blend learning
+                                and excitement. Let the challenge begin!
+                            </p>
+                        </div>
+
+                        <span class="see-more" onclick="contentComplete(2)">See more</span>
+
+                    </div>
+
+                    <div class="item rig">
+                        <h4>Django Developer</h4>
+                        <span class="house">Your MP3
+                            <a class="links" href="https://github.com/zlcosio21/YourMP3">
+                                <i class="devicon-github-plain"></i>
+                            </a>
+                        </span>
+                        <span class="date">Jan 2024</span>
+                        <p>
+                            I created <a class="links" href="https://your-mp3-3bb219b16b8b.herokuapp.com/">YourMP3</a>,
+                            a Django project deployed on Heroku that enables the downloading of MP3 files via a URL
+                            from YouTube videos. In the code, the project converts the videos to MP3
+                            format, and then it sends an HTTP response back to the browser.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#home" class="up">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="networks">
+            <a href="https://github.com/zlcosio21"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/sebastian-g%C3%B3mez-75334a1a2/"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:sebas60621@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
