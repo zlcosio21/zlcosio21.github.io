@@ -46,3 +46,12 @@ function contentComplete(sectionId) {
         buttonReadLess.innerHTML = "See more";
     }
 }
+
+function openPDFInNewTab() {
+    var win = window.open('cv.pdf', '_blank');
+    if (win) {
+        win.focus();
+    } else {
+        alert('Please allow');
+    }
+}
