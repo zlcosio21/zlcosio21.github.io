@@ -349,6 +349,10 @@ html {
     animation: 2s javascript forwards;
 }
 
+.skills-technicals {
+    margin-left: 100px;
+}
+
 @keyframes javascript {
     0% {
         width: 0%;
