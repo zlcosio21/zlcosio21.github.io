@@ -745,6 +745,10 @@ footer .up {
         text-align: left !important;
     }
 
+    .skills-technicals {
+        margin-left: 0px;
+    }
+
 }
 
 @media screen and (max-width:700px) {
@@ -793,6 +797,10 @@ footer .up {
 
     .carrer-p-left {
         text-align: left;
+    }
+
+    .skills-technicals {
+        margin-left: 0px;
     }
 
 }
