@@ -48,7 +48,7 @@ function contentComplete(sectionId) {
 }
 
 function openPDFInNewTab() {
-    var win = window.open('cv.pdf', '_blank');
+    var win = window.open('resume_en.pdf', '_blank');
     if (win) {
         win.focus();
     } else {
